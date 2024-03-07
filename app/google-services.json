@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "191419510288",
+    "project_id": "dhiu230204",
+    "storage_bucket": "dhiu230204.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191419510288:android:6a22d1a4d05e3663f7e495",
+        "android_client_info": {
+          "package_name": "com.example.lab1_and103"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoeALkNLo-ENRodNYJ3BuEXwb_f8SMDH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
