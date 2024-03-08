@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="30dp"
-    android:background="@drawable/img_1"
-    tools:context=".dangky">
+    android:background="#4600BCD4"
+    tools:context=".dangnhapsdt">
 
 
     <LinearLayout
@@ -40,20 +40,14 @@
             android:orientation="vertical">
 
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Username:"
-                android:textStyle="bold"
-                android:layout_marginBottom="5dp"
-                android:textSize="20sp"/>
+
 
             <EditText
-                android:id="@+id/edtuse_dn"
+                android:id="@+id/edtsdt"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:ems="10"
+                android:hint="số điện thoại"
                 android:paddingLeft="10dp"
 
                 android:background="@drawable/tk_khung"
@@ -61,19 +55,27 @@
                 android:layout_marginBottom="10dp"
                 />
 
-            <TextView
-                android:layout_width="match_parent"
+
+            <Button
+                android:id="@+id/btn_sdt"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Password:"
-                android:textStyle="bold"
+                android:text="Xác nhận sdt"
+                android:layout_gravity="center"
+                android:background="@drawable/tkkhungdn"
+                app:backgroundTint="#BE03A9F4"
                 android:layout_marginBottom="5dp"
-                android:textSize="20sp"/>
+                android:layout_margin="10dp"/>
+
+
+
 
             <EditText
-                android:id="@+id/edtmk_dn"
+                android:id="@+id/edtopt"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:ems="10"
+                android:hint="mã otp"
                 android:paddingLeft="10dp"
                 android:background="@drawable/tk_khung"
                 android:inputType="textPassword"
@@ -81,53 +83,16 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/btn_dn"
-            android:layout_width="match_parent"
+            android:id="@+id/btn_opt"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="LOGIN"
+            android:text="Xác nhận otp"
             android:background="@drawable/tkkhungdn"
             app:backgroundTint="#BE03A9F4"
             android:layout_marginBottom="5dp"
             android:layout_margin="10dp"/>
 
-        <TextView
-            android:id="@+id/txtquenmk"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="fogot passwork?"
-            android:gravity="center"
-            android:layout_margin="2dp"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginTop="10dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-
-                android:text="Don't have account? " />
-
-            <TextView
-                android:id="@+id/txtdk_dn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Sign Up"
-                android:textStyle="bold"/>
-        </LinearLayout>
-        <TextView
-            android:id="@+id/txtdnsdt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:textColor="#BF1B1B"
-            android:text="Đăng nhập bằng số điện thoại"
-            android:gravity="center"
-            android:layout_margin="10dp"/>
     </LinearLayout>
 
 </LinearLayout>
